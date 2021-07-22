@@ -1,0 +1,28 @@
+<div class="l-t-10" data-controller="pages">
+  <div>
+    <label>Given</label>
+  </div>
+  <div>
+    <label>Person A: Age of death = </label>
+    <input data-pages-target="age_of_death_a" type="number">
+    <label>, Year of Death = </label>
+    <input data-pages-target="year_of_death_a" type="number">
+  </div>
+  <div>
+    <label>Person B: Age of death = </label>
+    <input data-pages-target="age_of_death_b" type="number">
+    <label>, Year of Death = </label>
+    <input data-pages-target="year_of_death_b" type="number">
+  </div>
+  <button class="ui button" data-action='pages#clicked'">
+    Submit
+  </button>
+  <br />
+  <br />
+  <div>
+    <label>Answer</label>
+  </div>
+  <div data-pages-target="answer1"></div>
+  <div data-pages-target="answer2"></div>
+  <div data-pages-target="answer3"></div>
+</div>
