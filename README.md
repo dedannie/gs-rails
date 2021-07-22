@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version 2.7.1p83
 
-Things you may want to cover:
+There is no builtin test for stimulus yet, so using Minitest instead to test system test. http://guides.rubyonrails.org/testing.html#system-testing
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Heroku throwed an error when using sqlite3, changed to postgresql.
