@@ -70,9 +70,10 @@ export default class extends Controller {
       total += numbers[i]
     }
     this.length = numbers.length,
-    this.average = total / this.length,
+    this.avg = total / this.length,
     this.number_list = this.list_of_numbers(numbers),
-    this.answer = 'So the average is (' + this.number_list + ')/' + this.length + ' = ' + this.average
+    this.answer = 'So the average is (' + this.number_list + ')/' + this.length + ' = ' + this.avg
+    console.log(this.answer)
   }
 
   // Create list number backward
